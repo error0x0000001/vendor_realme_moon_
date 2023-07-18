@@ -66,5 +66,9 @@ PRODUCT_COPY_FILES += \
     vendor/realme/moon/proprietary/lib64/libaptX_encoder.so:$(TARGET_COPY_OUT_SYSTEM)/lib64/libaptX_encoder.so \
     vendor/realme/moon/proprietary/lib64/libem_support_jni.so:$(TARGET_COPY_OUT_SYSTEM)/lib64/libem_support_jni.so \
 
+PRODUCT_COPY_FILES += \
+    vendor/realme/moon/proprietary/vendor/lib/soundfx/audio_effects.conf:$(TARGET_COPY_OUT_SYSTEM)/lib/soundfx/audio_effects.conf \
+    vendor/realme/moon/proprietary/vendor/lib/soundfx/audio_policy_configuration.xml:$(TARGET_COPY_OUT_SYSTEM)/lib/soundfx/audio_policy_configuration.xml \
+
 PRODUCT_PACKAGES += \
     ImsService
